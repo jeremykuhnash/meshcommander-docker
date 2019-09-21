@@ -7,4 +7,5 @@ RUN \
     cd /meshcommander && \
     npm install meshcommander 
 
+EXPOSE 7070
 ENTRYPOINT ["/entrypoint.sh"]
